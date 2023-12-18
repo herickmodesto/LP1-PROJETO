@@ -7,7 +7,7 @@
 ## O que é?
 <hr/>
 
-O projeto se trata de uma CLI(Comand line interface), totalmente programada em C++, que oferece ferramentas pare gerenciamento de "músicas" e "playlists", com o intuito de aprender a implementar o conceito de Manipulação de Arquivos, lista encadeada de tipo genérico e herança. Esse projeto faz parte da terceira unidade da matéria LP1(Liguagem de programação 1) do curso BTI(Bacharelado em tecnologia da informação) da UFRN(Universidade federal do Rio Grande do Norte).
+O projeto se trata de uma CLI(Comand line interface), totalmente programada em C++, que oferece ferramentas pare gerenciamento de "músicas" e "playlists", com o intuito de aprender a implementar o conceito de Manipulação de Arquivos, lista encadeada e herança. Esse projeto faz parte da terceira unidade da matéria LP1(Liguagem de programação 1) do curso BTI(Bacharelado em tecnologia da informação) da UFRN(Universidade federal do Rio Grande do Norte).
 
 ## Compilar o projeto
 <hr/>
