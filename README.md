@@ -1,5 +1,4 @@
 # GERENCIADOR DE MÚSICAS E PLAYLISTS
-Antes de tudo gostaria de deixar os link do [repositório do github](https://github.com/herickmodesto/LP1-PROJETO/), para consultas mais detalhadas.
 ## Discente
 | Nome        | Matricula   |
 | ----------- | ----------- |
