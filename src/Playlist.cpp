@@ -22,6 +22,11 @@ Playlist::Playlist(Playlist *p)
       musics->add(new Music(out_musics->at(i)));
    }
 }
+Playlist::~Playlist()
+{
+    // Libera a memória alocada dinamicamente para a lista de músicas
+    delete musics;
+}
 
 void Playlist::toString()
 {
