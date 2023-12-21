@@ -12,7 +12,6 @@ void displayMainMenu()
    cout << "[2] - Gerenciar playlists\n";
    cout << "[3] - Fechar app\n";
 }
-
 void displayMusicsMenu()
 {
    cout << str_purple("\nMENU MÚSICAS\n");
