@@ -12,19 +12,34 @@ template <typename T>
 class List
 {
 private:
-   /// @brief Inicio da lista encadeada
    Node<T> *head;
-   /// @brief Fim da lista encadeada
    Node<T> *tail;
 
 public:
-   /// @brief Guarda o tamanho atual da lista
    int size = 0;
-   /// @brief Construtor da List inicia tanto o head quanto o tail com nullptr
+
    List()
    {
       this->head = nullptr;
       this->tail = nullptr;
+   }
+
+   // Destrutor para liberar a memória alocada para os nós da lista
+   ~List()
+   {
+      Node<T> *current = head;
+      Node<T> *next = nullptr;
+
+      while (current != nullptr)
+      {
+         next = current->next;
+         delete current;
+         current = next;
+      }
+
+
+      head = nullptr;
+      tail = nullptr;
    }
 
    List(List<T> *list)
@@ -33,8 +48,6 @@ public:
       this->tail = list->tail;
    }
 
-   /// @brief Adiciona a lista um valor genérico
-   /// @param value Valor a ser adicionado a lista
    void add(T value)
    {
       if (tail != nullptr && head != nullptr)
