@@ -22,6 +22,7 @@ public:
    /// @param nome Nome da playlist
    Playlist(string);
    Playlist(Playlist*);
+   ~Playlist(); // Destrutor
    /// @brief Função que adiciona uma música na playlist
    /// @param music Ponteiro para a música que será adicionada
    void addToPlaylist(Music *m) const { this->musics->add(m); }
