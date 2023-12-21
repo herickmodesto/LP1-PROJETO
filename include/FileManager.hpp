@@ -11,4 +11,5 @@ using namespace std;
 void readData(List<Music*> *musics, List<Playlist*> *playlists, string file);
 void writeData(List<Music*> *musics, List<Playlist*> *playlists, string file);
 
+
 #endif
